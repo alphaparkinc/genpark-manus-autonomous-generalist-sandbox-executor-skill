@@ -1,0 +1,32 @@
+{
+  "name": "genpark-manus-autonomous-generalist-sandbox-executor-skill",
+  "version": "1.0.0",
+  "description": "General-purpose autonomous task decomposition, multi-modal web/sandbox execution loop, and self-correcting goal resolution (inspired by Manus AI).",
+  "category": "Service",
+  "author": "AlphaPark",
+  "tags": [
+    "personal-agent",
+    "manus-ai",
+    "generalist-agent",
+    "sandbox-executor",
+    "mcp"
+  ],
+  "tools": [
+    {
+      "name": "decompose_goal",
+      "description": "Decompose complex high-level personal goal into multi-stage execution graph."
+    },
+    {
+      "name": "execute_sandbox_step",
+      "description": "Execute deterministic simulated sandbox step with self-healing feedback."
+    },
+    {
+      "name": "validate_goal_completion",
+      "description": "Verify deliverables and artifacts against goal specification."
+    },
+    {
+      "name": "run_manus_benchmark",
+      "description": "Run Manus autonomous generalist agent benchmark."
+    }
+  ]
+}
